@@ -23,6 +23,7 @@ body{
 
 .tabelaPessoas { 
     align-items: center;
+    width:90%;
 }
 
 input {
