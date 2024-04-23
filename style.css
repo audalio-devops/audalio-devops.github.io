@@ -1,0 +1,82 @@
+*{
+    margin: 20;
+    padding: 0;
+}
+
+h1 {
+    color: aliceblue;
+    margin: 40px 0 20px 0;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(76, 63, 253);
+}
+
+.box, form, div{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.tabelaPessoas { 
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 50px;
+    padding: 0 15px 0 15px;
+}
+
+button {
+    width: 150px;
+    height: 25px;
+}
+
+.buttonUpdTable, .buttonExcTable {
+    width: 50px;
+    height: 25px;
+}
+
+table {
+    font-size:12px;
+    color:#333333;
+    width:50%;
+    border-width: 1px;
+    border-color: #729ea5;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    font-size:14px;
+    background-color: #acc8cc;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    text-align:left;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tr {
+    background-color:#d4e3e5;
+}
+
+td {
+    font-size:14px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js-cadastro.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niver Cloud</title>
+
+</head>
+    <div class="box">
+        <h1>Cadastro de pessoas</h1>
+        <form id="form" class="form">
+            <input class="name" id="name" minlength="3" maxlength="120" name="name" required type="text" placeholder="Nome">
+            <input class="birth-date" id="birth-date" name="birth-date" required type="date" placeholder="Data de Aniversário">
+
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+
+    <div id="tabelaPessoas" class="tabelaPessoas">
+        <h1>Lista de Aniversários</h1>
+        <table id="pessoa-table">
+            <thead>
+                <tr>
+                    <th>Nome da Pessoa</th>
+                    <th>Data de Nascimento</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="pessoa-list"></tbody>
+        </table>
+    </div>
+</body>
+</html>
+
